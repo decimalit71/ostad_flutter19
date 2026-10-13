@@ -7,6 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:kazi_flutter19/app.dart';
 
 import 'package:kazi_flutter19/main.dart';
 
