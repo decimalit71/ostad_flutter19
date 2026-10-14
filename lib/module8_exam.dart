@@ -29,7 +29,7 @@ class BloodRequestsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Colors.grey,
+        backgroundColor: Colors.grey,
         elevation: 0,
         centerTitle: true,
         title: const Text(
@@ -48,7 +48,7 @@ class BloodRequestsPage extends StatelessWidget {
             bloodGroup: 'O-',
             units: 3,
             location:
-                'Khulna City Medical College Hospital, KDA Ave...',
+            'Khulna City Medical College Hospital, KDA Ave...',
             buttonColor: Colors.blue,
           ),
           SizedBox(height: 30),
@@ -56,7 +56,7 @@ class BloodRequestsPage extends StatelessWidget {
             bloodGroup: 'O+',
             units: 2,
             location:
-                'Khulna City Medical College Hospital, KDA Ave...',
+            'Khulna City Medical College Hospital, KDA Ave...',
             buttonColor: Colors.blue,
           ),
         ],
@@ -121,7 +121,7 @@ class BloodRequestCard extends StatelessWidget {
                     // Urgency label and blood units
                     Row(
                       mainAxisAlignment:
-                          MainAxisAlignment.spaceBetween,
+                      MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
                           padding: const EdgeInsets.symmetric(
