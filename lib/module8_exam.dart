@@ -89,7 +89,7 @@ class BloodRequestCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(22),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.06),
+            color: Colors.black,
             blurRadius: 12,
             offset: const Offset(0, 4),
           ),
